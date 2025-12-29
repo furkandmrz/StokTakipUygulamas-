@@ -2,12 +2,15 @@
 using System;
 using System.Windows.Forms;
 
-public static class Program
-{
-    [STAThread]
-    public static void Main()
+namespace StokTakipUygulamasý
+    public static class Program
     {
-        ApplicationConfiguration.Initialize();
-        Application.Run(new Form1());
+        [STAThread]
+        public static void Main()
+        {
+            ApplicationConfiguration.Initialize();
+            Application.Run(new Form1());
+        }
     }
 }
+
